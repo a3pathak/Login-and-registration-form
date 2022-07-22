@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient(90deg, #be2edd,#fa077c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.title{
+    font-size: 1.2rem;
+    padding: 40px 0px;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-type{
+    /* width: 60%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin: 0 20px;
+}
+.form-type button{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 12px 60px;
+    margin: 0 -5px;
+    border: 1px solid rgb(235, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#login{
+    color: white;
+    background-image: linear-gradient(90deg, #be2edd,#fa077c);
+}
+/* #signup{
+    background-image: linear-gradient(90deg, #be2edd,#fa077c);
+} */
+.login{
+    margin: 20px 0;
+    width: 85%;
+}
+.signup{
+    margin: 20px 0;
+    width: 85%;
+    display: none;
+}
+form input{
+    padding: 17px 25px;
+    margin: 10px 0px;
+    width: 84%;
+    border: 2px solid rgb(243, 241, 241);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    /* color: rgb(253, 250, 250); */
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 57, 163);
+    font-weight: 400;
+    margin: 15px 0px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn{
+    padding: 15px 5px;
+    background-image: linear-gradient(90deg, #be2edd,#fa077c);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
